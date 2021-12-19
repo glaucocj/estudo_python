@@ -6,9 +6,16 @@ def SOMA(a,b):
 
 SOMA(5,6)
 
-arquivo = open("arquivo.txt")
+arquivo = open("arquivo.txt") #Ao abrir um arquivo é importante especificar o método, "w" "a" "r" #o método "a" permite adicionar conteúdo sem apagar o anterior
 
-linhas =  arquivo.readlines()
+linhas =  arquivo.readlines() #Lê linha por linha e armazena em um Array 
+#Lê o arquivo inteiro linhas.arquivo.read() 
 
 for linha in linhas:
 	print(linha)
+
+novo_arquivo = open("criando_um_arquivo.txt","w") #Criando um novo arquivo
+
+novo_arquivo.write("Escrevendo dentro do arquivo áã") #Escrevendo dentro do arquivo
+
+w.close() #Fechando o arquivo
