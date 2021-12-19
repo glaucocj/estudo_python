@@ -12,10 +12,12 @@ a = 1
 b = "Arte"
 c = True
 d = False
-e = 3
+e = 1
 f = a + e
 
-if a >= e:
+if a > e:
 	print(e)
+elif a == e:
+	print(b)
 else:
 	print(d)
