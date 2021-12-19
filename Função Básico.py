@@ -14,8 +14,8 @@ linhas =  arquivo.readlines() #Lê linha por linha e armazena em um Array
 for linha in linhas:
 	print(linha)
 
-novo_arquivo = open("criando_um_arquivo.txt","w") #Criando um novo arquivo
+novo_arquivo = open("criando_um_arquivo.txt","a") #Criando um novo arquivo
 
-novo_arquivo.write("Escrevendo dentro do arquivo áã") #Escrevendo dentro do arquivo
+novo_arquivo.write("Escrevendo dentro do arquivo áã\n") #Escrevendo dentro do arquivo
 
-w.close() #Fechando o arquivo
+novo_arquivo.close() #Fechando o arquivo
