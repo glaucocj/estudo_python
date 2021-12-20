@@ -17,3 +17,7 @@ print (lista1)
 if "d" in lista2:
 	print ("Está na lista")
 else: print ("Não está na lista")
+
+del lista2[1:3] #deleta itens da lista dentro do intervalo especificado [:] <--- Deleta tudo
+
+print (lista2)
